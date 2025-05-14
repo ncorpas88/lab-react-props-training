@@ -1,6 +1,6 @@
 import React from "react"
 
-function IdCard({lastName, firsName, gender, height, birth, picture }) {
+function IdCard({lastName, firsName, gender, height, birth, picture}) {
 
 
     return(
