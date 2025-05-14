@@ -1,13 +1,13 @@
 import React from "react"
 
-function IdCard({lastName, firsName, gender, height, birth, picture}) {
+function IdCard({lastName, firstName, gender, height, birth, picture}) {
 
 
     return(
         <div>
-            <img src={picture} alt={`${firsName} ${lastName}`} />
+            <img src={picture} alt={`${firstName} ${lastName}`} />
             <div>
-                <p>First name: {firsName}</p>
+                <p>First name: {firstName}</p>
                 <p>Last name: {lastName}</p>
                 <p>Gender: {gender}</p>
                 <p>Height: {height}</p>
